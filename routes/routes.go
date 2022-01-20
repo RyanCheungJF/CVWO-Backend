@@ -6,7 +6,7 @@ import (
 )
 
 func Setup(app *fiber.App) {
-	// Server Statis
+	// Server Status
 	app.Get("", controllers.Status)
 
 	// User Auth
